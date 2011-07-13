@@ -8,8 +8,8 @@
     <dependencies>
         <dependency>
             <groupId>net.lag</groupId>
-            <artifactId>configgy</artifactId>
-            <version>2.0.0</version>
+            <artifactId>configgy-nolog_2.9.0</artifactId>
+            <version>2.0.2</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -26,6 +26,11 @@
         </dependency>
     </dependencies>
     <repositories>
+        <repository>
+            <id>renaliasnetRepository</id>
+            <name>renalias.net Repository</name>
+            <url>http://phunkphorce.github.com/maven/</url>
+        </repository>
         <repository>
             <id>ScalaToolsMaven2Repository</id>
             <name>Scala-Tools Maven2 Repository</name>
